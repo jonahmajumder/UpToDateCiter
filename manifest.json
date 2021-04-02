@@ -1,0 +1,35 @@
+{
+  "name": "UpToDate Citation Generator",
+  
+  "version": "1.0",
+  
+  "description": "Save UpToDate reference in RIS (citation) file.",
+  
+  "action": {
+    "default_popup": "popup.html"
+	},
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "web_accessible_resources": [{
+    "resources": ["page.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }],
+
+  "content_scripts": [{
+   "matches": ["http://*/*", "https://*/*"],
+   "js": ["contentscript.js"]
+  }],
+
+  "manifest_version": 3,
+  "incognito": "spanning",
+  
+  "permissions": [
+     "activeTab",
+     "scripting",
+     "webNavigation",
+     "tabs"
+   ]
+}

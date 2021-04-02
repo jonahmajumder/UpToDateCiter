@@ -1,0 +1,33 @@
+<!-- =================================
+UpToDate Citation Generator Extension
+================================= //-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>UpToDate Citation Generator</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <h3>UpToDate Citation Generator</h3>
+  <div class="buttonwrapper">
+    <div class="tooltip">
+      <input id="saveButton" type="button" name="save" value="Save RIS File">
+      <span id="savetooltip" class="tooltiptext left">Navigate to an UpToDate Article!</span>
+    </div>
+    <div class="tooltip">
+      <input id="copyButton" type="button" name="copy" value="Copy Citation">
+      <span id="copytooltip" class="tooltiptext right">Navigate to an UpToDate Article!</span>
+    </div>
+  </div>
+  <h4><a id="infolink" href="https://www.uptodate.com/home/how-use-uptodate-presentation">How to Cite UpToDate Articles</a></h4>
+  <div>
+    <a class="hidden" href="" download="" id="dllink"></a>
+  </div>
+  <div>
+    <textarea class="pseudohidden" id="copyarea"></textarea>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
