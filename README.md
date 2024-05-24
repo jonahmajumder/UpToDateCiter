@@ -5,7 +5,7 @@ A Google Chrome browser extension that automatically generates citations for UpT
 ## What does this extension do?
 
 This extension currently generates citations in two forms:
-- as an [RIS file](https://en.wikipedia.org/wiki/RIS_(file_format))-- perfect for importing into your favorite bibiography management software
+- as an [RIS file](https://en.wikipedia.org/wiki/RIS_(file_format))-- ideal for importing into any bibiography management software
 - as a formatted MLA citation (copied to clipboard)
 
 ### How are UpToDate articles cited?
